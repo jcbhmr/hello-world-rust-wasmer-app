@@ -1,0 +1,5 @@
+---
+kind: wasmer.io/App.v0
+name: jcbhmr-hello-world-rust-wasmer-app
+package: jcbhmr/hello-world-rust-wasmer-app@0.1.1
+app_id: da_LKN4IZtyUVyR

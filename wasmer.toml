@@ -1,0 +1,16 @@
+[package]
+name = "jcbhmr/hello-world-rust-wasmer-app"
+version = "0.1.1"
+description = "🟪 \"Hello world!\" demo Wasmer HTTP server application"
+license = "0BSD"
+wasmer-extra-flags = "--net --enable-threads --enable-bulk-memory"
+
+[[module]]
+name = "hello-world-rust-wasmer-app"
+source = "./target/wasm32-wasmer-wasi/release/hello-world-rust-wasmer-app.wasm"
+abi = "wasi"
+
+[[command]]
+name = "proxy"
+module = "hello-world-rust-wasmer-app"
+runner = "https://webc.org/runner/wasi"
