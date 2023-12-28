@@ -11,6 +11,7 @@ async fn main() {
         eprintln!("Invalid port number: {}", port);
         std::process::exit(1);
     });
+
     // Run the server with hyper on http://127.0.0.1:3000
     let addr = SocketAddr::from(([127, 0, 0, 1], port));
     eprintln!("Listening on http://{}", addr);
@@ -21,5 +22,5 @@ async fn main() {
 }
 
 async fn handler() -> &'static str {
-    "Hello, Axum ❤️ WASMER!"
+    return "Hello, Axum ❤️ WASMER!"
 }
