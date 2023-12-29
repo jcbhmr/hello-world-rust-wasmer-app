@@ -13,7 +13,7 @@
 🟪 Uses Wasmer's new app platform \
 🦀 Written in Rust \
 🅰 Uses the [Axum] HTTP server library \
-👩‍⚖️ [0BSD licensed] template
+👩‍⚖️ [0BSD licensed](./LICENSE) template
 
 ## Development
 
@@ -34,7 +34,6 @@ time you run `wasmer deploy`, it will bump the version. That version isn't
 exposed anywhere to the endpoint.
 
 <!-- prettier-ignore-start -->
-[0BSD licensed]: https://github.com/jcbhmr/hello-world-rust-wasmer-app/blob/main/LICENSE
 [wasmer]: https://wasmer.io/
 [axum]: https://github.com/tokio-rs/axum
 [wasmer cli]: https://docs.wasmer.io/install
