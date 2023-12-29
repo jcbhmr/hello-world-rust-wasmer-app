@@ -6,6 +6,8 @@ on:
       - .gitignore
       - LICENSE
       - README.md
+      - .github/**
+      - "!.github/workflows/wasmer-deploy.yml"
   workflow_dispatch:
 concurrency: ${{ github.workflow }}
 jobs:
