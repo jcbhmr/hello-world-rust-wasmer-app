@@ -1,6 +1,6 @@
 [package]
 name = "jcbhmr/hello-world-rust-wasmer-app"
-version = "1.0.2"
+version = "1.0.3"
 description = "🟪 \"Hello world!\" demo Wasmer HTTP server application"
 license = "0BSD"
 wasmer-extra-flags = "--net --enable-threads --enable-bulk-memory"
